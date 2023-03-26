@@ -11,6 +11,9 @@ https://csspro.com/?ref=beautifulboxshadow-bottom
 tutorial efecto input
 https://www.youtube.com/watch?v=BMphVl9suxA
 
+quitafondos
+https://www.remove.bg/
+
 
 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

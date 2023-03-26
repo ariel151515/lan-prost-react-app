@@ -1,0 +1,105 @@
+.contendormodal {
+   background: #fff;
+   border-radius: 5px;
+   box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+   padding: 3%;
+   margin-top: 1%;
+   max-width: 550px;
+   max-height: 90%;
+   position: relative;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
+
+.overlayNone {
+    display:none;
+}
+
+.cerrar {
+    float: right;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: -10%;
+    margin-right: -10%;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .contendormodal {
+        width: 90%;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        margin-top: 3%;
+        padding-top: 10%;
+     }
+
+     .cerrar {
+        float: right;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: -8%;
+        margin-right: -1%;
+    }
+    
+}
+
+
+@media screen and (max-width:412px) {
+    .contendormodal {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        margin-top: 3%;
+        padding-top: 10%;
+        width: 94%;
+        padding: 3%;
+     }
+    
+}
+
+
+
+@media screen and (max-width:414px) {
+    .contendormodal {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+        margin-top: 3%;
+        padding-top: 10%;
+        width: 94%;
+        padding: 3%;
+     }
+
+     .cerrar {
+        float: right;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-right: -1%;
+    }
+}
+
+
+
+@media screen and (max-width:300px) {
+
+    .contendormodal {
+        width: 94%;
+        padding: 3%;
+     }
+}

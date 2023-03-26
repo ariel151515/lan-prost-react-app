@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&display=swap');
+
+.input {
+    width: 96%;
+    background: #F8F1F1;
+    border: none;
+    padding: 4%;
+    margin-bottom: 3%;
+    font-size: 16px;
+}
+
+.contenedorBoton{
+    width: 80%;
+    margin-top: 2%;
+}
+
+.btn {
+    width: 100%;
+    background: #70B630;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 140%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    transition: all ease-in 0.2s;
+    padding-bottom:3.5%;
+    padding-top: 3.5%;
+    display: flex;
+}
+
+.btn:hover{
+      background: #509C0A;
+      transition: all ease-in 0.2s;
+  }
+
+.btn  p{
+    font-family: 'Anton', sans-serif;
+    font-size: 100%;
+    color: #fff;
+    margin-top: 1px;
+  }
+
+.btn img {
+    margin-left: -11%;
+  }
+
+.in {
+    text-align: left;
+    position: relative;
+}
+ 
+.in label {
+    font-size: 16px;
+}
+.formu {
+    width: 93%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:8px;
+}
+
+.opcionesPaises {
+    width: 103%;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 5%;
+    margin-top: -2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: absolute;
+}
+
+.opcionesPaisesNone {
+    display: none;
+}
+
+.banderas {
+    width: 104%;
+    background: #F8F1F1;
+    border: none;
+    margin-bottom: 3%;
+    font-size: 16px;
+    display: flex;
+}
+
+.inputBanderas {
+    width: 100%;
+    background: #F8F1F1;
+    border: none;
+    padding: 4%;
+    font-size: 100%;
+    display: flex;
+    margin-left:6%;
+}
+
+.paises {
+    margin-left: 5%;
+    margin-top: 4.5%;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+.pik {
+    margin-left: 10%;
+}
+
+.plus {
+    margin-left: 10%;
+}
+
+
+.option {
+    display: flex;
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background: #fff;
+    border-bottom: solid 1px #F8F1F1;
+}
+
+.option:hover {
+   background: #F8F1F1;
+   cursor: pointer;
+}
+
+.nombreBandra {
+ font-size: 16px;
+ float: right;
+ margin-right: 100%;
+ margin-left: 10%;
+}
+
+.aa {
+    width: 30px;
+    float: right;
+    display: flex;
+    padding: 3%;
+    margin-left: 2%;
+}
+
+.plusB{
+  font-size: 70%;
+  margin-left: 40%;
+  width: 200px;
+}
+
+
+.nn, .Ban{
+    width: 30px;
+}
+
+
+@media screen and (max-width:600px) {
+    .btn {
+        font-size: 100%;
+    }
+}
+
+
+@media screen and (max-width:460px) {
+
+    .btn {
+        font-size: 100%;
+    }
+    .pik {
+        margin-left: -78%;
+    }
+    
+    .plus {
+        margin-left: -80%;
+        font-size: 16px;
+    }
+
+    .nn {
+        width: 7%;
+        margin-left: -1%;
+    }
+
+    .inputBanderas {
+        width: 100%;
+        background: #F8F1F1;
+        border: none;
+        padding: 4%;
+        border-radius: 5%;
+        font-size: 100%;
+        display: flex;
+        margin-left:-90%;
+    }
+
+}
+
+
+
+@media screen and (max-width:420px) {
+
+    .btn {
+        font-size: 100%;
+    
+    }
+    .pik {
+        margin-left: -78%;
+    }
+    
+    .plus {
+        margin-left: -80%;
+        font-size: 16px;
+    }
+
+    .nn {
+        width: 7%;
+        margin-left: -1%;
+    }
+
+    .inputBanderas {
+        width: 100%;
+        background: #F8F1F1;
+        border: none;
+        padding: 4%;
+        border-radius: 5%;
+        font-size: 100%;
+        display: flex;
+        margin-left:-90%;
+    }
+
+    .contenedorBoton {
+        width: 100%;
+    }
+    .kk {
+        width: 7%;
+        margin-right: 10%;
+    }
+
+}
+
+
+
+@media screen and (max-width:350px) {
+
+    .btn {
+        font-size: 80%;
+      }
+    .contenedorBoton {
+        width: 100%;
+    }
+    .kk {
+        width: 7%;
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .btn {
+        font-size: 80%;
+      }
+    .contenedorBoton {
+        width: 100%;
+    }
+    .kk {
+        width: 7%;
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+
+    .btn {
+        font-size: 80%;
+      }
+      
+    .contenedorBoton {
+        width: 100%;
+    }
+
+    .kk {
+        width: 7%;
+        margin-right: 10%;
+    }
+
+}

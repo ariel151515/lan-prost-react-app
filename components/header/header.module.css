@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+.header {
+   width: 100%;
+   background: #F5F5F5;
+   height: 106px;
+   border-bottom: solid #E8E8E8;
+
+}
+
+.logo {
+  grid-column: 1/2;
+  font-family: 'Anton', sans-serif;
+  font-size: 36px;
+}
+.menu {
+  font-family: 'Roboto', sans-serif;
+  grid-column: 7/8;
+  font-size: 20px;
+  display: flex;
+  margin-left: 15px;
+}
+.menu span{
+  margin-left: 25px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btnburguer {
+  display:none;
+}
+.contenedorBotonCompra {
+  width: 389px;
+  height: 56px;
+  grid-column: 8/12;
+  
+  padding-bottom: 5px;
+}
+
+
+
+@media screen and (max-width:600px) {
+  
+  .menu, .contenedorBotonCompra {
+    display: none;
+  }
+
+  .btnburguer {
+    grid-column: 10/12;
+    cursor: pointer;
+    padding-right: 10px;
+    display:flex;
+    border: none;
+    background: none;
+    position: fixed;
+    margin-left: 85%;
+    margin-top: 6%;
+    display: flex;
+  }
+
+  .btnburguerNone {
+    display: none;
+  }
+
+  
+  
+  .logo {
+    grid-column: 1/4;
+    font-size: 27px;
+    margin-left: 6%;
+  }
+ 
+
+}
+
+
+@media screen and (max-width:412px) {
+
+    .btnburguer {
+      margin-top: 9%;
+    }
+
+    .btnburguerNone {
+      display: none;
+    }
+  
+
+}
+@media screen and (max-width:414px) {
+
+  .btnburguer {
+    margin-top: 9%;
+  }
+
+  .btnburguerNone {
+    display: none;
+  }
+
+
+}

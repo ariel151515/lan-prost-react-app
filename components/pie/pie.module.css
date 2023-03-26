@@ -1,0 +1,23 @@
+.contenedor {
+    background: #484242;
+    height: 20%;
+    color: #998787;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+.textoUno, .textoDos{
+   font-size: 16px;
+}
+.textoUno {
+    margin-top: 20px;
+ }
+.textoDos{
+    margin-top: -20px;
+ }
+
+
+ @media screen and (max-width:600px) {
+    .contenedor {
+       padding-left: 5%;
+    }
+  }

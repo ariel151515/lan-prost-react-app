@@ -1,0 +1,30 @@
+.contenedor {
+    max-height: 150px;
+    width: 100%;
+    background: #1B1818;
+    height: 20%;
+    display: flex;
+    position: fixed;
+    padding-bottom: 35%;
+}
+
+.contenedorNone {
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.mm {
+    color: #fff;
+    list-style: none;
+    margin-left: 7%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+.mm li{
+    color: #fff;
+    list-style: none;
+    margin-bottom: 10%;
+    text-align: left;
+}

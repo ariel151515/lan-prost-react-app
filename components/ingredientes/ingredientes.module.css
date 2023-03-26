@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background: #efeeee;
+    grid-column: 1/-1;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.tituloIngredientes {
+    color: #7790CA;
+    font-size: 120%;
+    margin-top: 2%;
+}
+.tituloDos {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.contenedorCard {
+    width: 100%;
+    display: flex;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    justify-content: space-evenly; /*se reparte equitativamente */
+}
+
+
+
+@media screen and (max-width:600px) {
+    .contenedorCard {
+      width: 90%;
+      display: inline-block;
+      margin-top: 1%;
+    }
+
+    .tituloDos {
+        width: 90%;
+        font-family: 'Anton', sans-serif;
+        font-size: 180%;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .tituloIngredientes {
+        font-size:90%;
+        margin-top: 9%;
+    }
+   
+  }
+  

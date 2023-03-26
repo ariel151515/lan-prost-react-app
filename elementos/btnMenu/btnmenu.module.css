@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width:600px) {
+  .boton {
+    width: 130%;
+    background: #70B630;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    border-radius:5px ;
+    padding: 5px;
+    margin-left: -1%;
+
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    transition: all ease-in 0.2s;
+  }
+  .boton:hover {
+      background: #509C0A;
+      transition: all ease-in 0.2s;
+  }
+  .boton img {
+    margin-top: 2.5%;
+    width: 8%;
+  }
+  .boton p {
+    margin-left: -6%;
+    font-size: 80%;
+  }
+
+}
+
+@media screen and (max-width:460px) {
+  
+}
+
+@media screen and (max-width:390px) {
+  
+
+}

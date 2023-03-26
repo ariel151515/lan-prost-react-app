@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&display=swap');
+.boton {
+    width: 100%;
+    background: #70B630;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 140%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    transition: all ease-in 0.2s;
+    padding-bottom:3.5%;
+    padding-top: 3.5%;
+    display: flex;
+  }
+  .boton:hover {
+      background: #509C0A;
+      transition: all ease-in 0.2s;
+  }
+
+  .boton  p{
+    margin-left: -10%;
+    font-family: 'Anton', sans-serif;
+    font-size: 100%;
+    color: #fff;
+    margin-top: 1px;
+  }
+ 
+
+
+@media screen and (max-width:600px) {
+  .boton {
+    width: 150%;
+    background: #70B630;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 100%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    transition: all ease-in 0.2s;
+    padding-bottom:3.5%;
+    padding-top: 3.5%;
+  }
+  .boton:hover {
+      background: #509C0A;
+      transition: all ease-in 0.2s;
+  }
+  .boton img {
+    margin-top: 1%;
+  }
+
+
+}
+
+@media screen and (max-width:460px) {
+  .boton {
+    width: 130%;
+    background: #70B630;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 140%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    transition: all ease-in 0.2s;
+    padding-bottom:3.5%;
+    padding-top: 3.5%;
+   
+  }
+  .boton:hover {
+      background: #509C0A;
+      transition: all ease-in 0.2s;
+  }
+  .boton img {
+    margin-top: 1%;
+    margin-right: 14%;
+  }
+
+}
+
+@media screen and (max-width:390px) {
+  .boton {
+    background: #70B630;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 140%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
+    transition: all ease-in 0.2s;
+    padding-bottom:3.5%;
+    padding-top: 3.5%;
+
+  }
+  .boton:hover {
+      background: #509C0A;
+      transition: all ease-in 0.2s;
+  }
+  .boton p {
+    font-size: 70%;
+  }
+  .boton img {
+    margin-top: 1%;
+    margin-right: 14%;
+  }
+
+}

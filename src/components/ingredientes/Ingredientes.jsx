@@ -6,7 +6,7 @@ const Ingredientes = () => {
     return ( 
         <div className={styles.container}>
             <div className={grid.grid}>
-                    <div className={styles.tituloIngredientes}>INGREDIENTES 100% NATURALES</div>
+                    <div className={styles.tituloIngredientes} id="ingredientes" >INGREDIENTES 100% NATURALES</div>
                     <div className={styles.tituloDos}>Los Ingredientes Naturales De AC PROST Han Sido Cuidadosamente Seleccionados Por Expertos en Salud</div>
                     
                     <div className={styles.contenedorCard}>

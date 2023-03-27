@@ -5,7 +5,7 @@ import bottle from '../banner/img/bottle.png'
 
 const Banner = () => {
     return ( 
-        <div className={grid.grid}>
+        <div className={grid.grid} id="#top" >
             <div className={styles.textosBanner}>
                 <span className={styles.tituloPrincipal}>La Próstata No Tiene Que Hacer Tu Vida Imposible</span>
                 <p className={styles.parrafo}>

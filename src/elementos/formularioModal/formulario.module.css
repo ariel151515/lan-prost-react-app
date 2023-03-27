@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&display=swap');
 
-.input {
-    width: 96%;
-    background: #F8F1F1;
-    border: none;
-    padding: 4%;
-    margin-bottom: 3%;
-    font-size: 16px;
-}
 
-.contenedorBoton{
-    width: 80%;
-    margin-top: 2%;
+.main {
+    width:60%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
@@ -19,8 +13,7 @@
     background: #70B630;
     border: none;
     border-radius: 50px;
-    font-family: 'Anton', sans-serif;
-    font-size: 140%;
+    font-size: 100%;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -28,9 +21,10 @@
     -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
     box-shadow: 0px 0px 9px 0px rgba(176,176,176,0.61);
     transition: all ease-in 0.2s;
-    padding-bottom:3.5%;
-    padding-top: 3.5%;
     display: flex;
+    margin-top:-2%;
+    letter-spacing: 1px; 
+    padding: 3.5% 5% 3.5% 5%;
 }
 
 .btn:hover{
@@ -45,31 +39,46 @@
     margin-top: 1px;
   }
 
-.btn img {
-    margin-left: -11%;
-  }
 
-.in {
-    text-align: left;
-    position: relative;
+.in 
+input
+{
+    width: 92%;
+    background: #ffff;
+    border-radius: 5px;
+    padding: 3%;
+    font-size: 16px;
+    outline: none;
+    border: solid 1px #DDD7D7;
+    color: #7C7474;
 }
  
-.in label {
-    font-size: 16px;
-}
-.formu {
-    width: 93%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left:8px;
+
+.in span
+{
+    margin-top: -9%;
+    float: left;
+    transition: 0.2s;
+    color: #C3C1C1;
+    font-size: 80%;
+    position: absolute;
+    margin-left: 2%;
 }
 
+
+.main .in
+{
+    margin-top:14%;
+}
+
+
 .opcionesPaises {
-    width: 103%;
+    width: 101%;
     float: left;
+    margin-left: -1%;
     background-color: #fff;
     margin-bottom: 5%;
-    margin-top: -2%;
+    margin-top: 3%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: absolute;
 }
@@ -78,46 +87,61 @@
     display: none;
 }
 
+
 .banderas {
-    width: 104%;
-    background: #F8F1F1;
-    border: none;
-    margin-bottom: 3%;
+    width: 100%;
+    height: 60px;
+    background: #Fff;
     font-size: 16px;
     display: flex;
 }
 
-.inputBanderas {
-    width: 100%;
-    background: #F8F1F1;
-    border: none;
-    padding: 4%;
-    font-size: 100%;
-    display: flex;
-    margin-left:6%;
-}
-
 .paises {
-    margin-left: 5%;
-    margin-top: 4.5%;
+    margin-left: 4%;
+    margin-top: 1.5%;
     display: flex;
     cursor: pointer;
 }
-
-
 
 .pik {
     margin-left: 10%;
 }
 
 .plus {
-    margin-left: 10%;
+    margin-left: 5%;
+    font-size: 85%;
+}
+
+.in, .inw 
+{
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.inw 
+{
+    margin-left: 6%;
+    margin-top: -5%;
+}
+
+.inw input
+{
+    padding: 5%;
+    width: 84%;
+    margin-top: 6%;
+    color: #7C7474;
+}
+
+
+.inw span {
+    margin-top: -7%;
 }
 
 
 .option {
     display: flex;
-    width: 100%;
     padding-top: 0%;
     padding-bottom: 0%;
     background: #fff;
@@ -130,10 +154,10 @@
 }
 
 .nombreBandra {
- font-size: 16px;
- float: right;
- margin-right: 100%;
- margin-left: 10%;
+    font-size: 16px;
+    float: right;
+    margin-right: 100%;
+    margin-left: 12%;
 }
 
 .aa {
@@ -150,139 +174,101 @@
   width: 200px;
 }
 
-
 .nn, .Ban{
     width: 30px;
 }
 
 
+
+
+
 @media screen and (max-width:600px) {
-    .btn {
-        font-size: 100%;
+    .main {
+        width:70%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-
 
 @media screen and (max-width:460px) {
-
-    .btn {
-        font-size: 100%;
+    .main {
+        width:75%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .pik {
-        margin-left: -78%;
-    }
-    
-    .plus {
-        margin-left: -80%;
-        font-size: 16px;
-    }
-
-    .nn {
-        width: 7%;
-        margin-left: -1%;
-    }
-
-    .inputBanderas {
-        width: 100%;
-        background: #F8F1F1;
-        border: none;
-        padding: 4%;
-        border-radius: 5%;
-        font-size: 100%;
-        display: flex;
-        margin-left:-90%;
-    }
-
 }
-
-
 
 @media screen and (max-width:420px) {
-
-    .btn {
-        font-size: 100%;
-    
+    .main {
+        width:90%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
+}
+
+
+@media screen and (max-width:360px) {
+
+   .main {
+        width:100%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     .pik {
-        margin-left: -78%;
+        margin-left: -77%;
     }
     
     .plus {
-        margin-left: -80%;
-        font-size: 16px;
+        margin-left: -76%;
+        font-size: 85%;
     }
 
     .nn {
-        width: 7%;
-        margin-left: -1%;
+        width: 9%;
+        margin-left: -2%;
     }
 
-    .inputBanderas {
-        width: 100%;
-        background: #F8F1F1;
-        border: none;
-        padding: 4%;
-        border-radius: 5%;
-        font-size: 100%;
+    .inw {
+        width: 70%;
         display: flex;
-        margin-left:-90%;
+        margin-left: 29%;
+        background: #fff;
+        position: absolute;
+        margin-top: -5%;
     }
-
-    .contenedorBoton {
+    
+    .inw input {
         width: 100%;
-    }
-    .kk {
-        width: 7%;
-        margin-right: 10%;
+        display: flex;
+        background: #fff;
+        position: relative;
     }
 
 }
 
 
 
-@media screen and (max-width:350px) {
-
-    .btn {
-        font-size: 80%;
-      }
-    .contenedorBoton {
-        width: 100%;
-    }
-    .kk {
-        width: 7%;
-        margin-right: 10%;
-    }
-
-}
 
 @media screen and (max-width:320px) {
-
-    .btn {
-        font-size: 80%;
-      }
-    .contenedorBoton {
-        width: 100%;
+    .main {
+        width:100%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .kk {
-        width: 7%;
-        margin-right: 10%;
-    }
-
 }
 
+
 @media screen and (max-width:300px) {
-
-    .btn {
-        font-size: 80%;
-      }
-      
-    .contenedorBoton {
-        width: 100%;
+    .main {
+        width:100%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
-
-    .kk {
-        width: 7%;
-        margin-right: 10%;
-    }
-
 }

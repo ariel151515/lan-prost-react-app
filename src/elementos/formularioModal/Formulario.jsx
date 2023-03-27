@@ -9,68 +9,76 @@ import pik from './img/pik.png'
 
 const Formulario = () => {
 
-    const [formulario, setFormulario] = useState()
+    const [leventaform, setLeventaform] = useState()
     const [banderas, setBanderas] = useState(false)
     const [prefijo, setPrefijo] = useState('+1')
 
 
-    function SetMexico() {
+    const SetMexico = () => {
       setPrefijo('+56')
       setBanderas(!banderas)
     }
 
-    function SetChile() {
+    const SetChile = () => {
       setPrefijo('+34')
       setBanderas(!banderas)
     }
 
-    function SetUsa() {
+    const SetUsa = () => {
       setPrefijo('+1')
       setBanderas(!banderas)
     }
 
+    const Leventaform = () => {
+        setLeventaform(true)
+    }
+
+
     return ( 
-        <>
+        <div className={styles.main}>
            <form>
-             
-             <div className={styles.formu}>
+
+              {/* Contenedor del input*/}
                <div className={styles.in}>
-                  <input type="text" className={styles.input} placeholder="Escribe tu Nombre"/>
+                  <span>* Escribe tu nombre:</span>
+                  <input type="text" placeholder="" required="required"/>
                </div>
 
+               {/* Contenedor del input*/}
                <div className={styles.in}>
-                  <input type="email" className={styles.input} placeholder="Escribe tu Email"/>
+                  <span>* Escribe tu email:</span>
+                  <input type="text" placeholder="" required="required"/>
                </div>
+
 
                <div className={styles.in}>
                   <div className={styles.banderas}>
+                    
+                        <div className={styles.paises} onClick={() => setBanderas(!banderas)}>
+                            <img src={
+                            `${ prefijo === '+1'  ? usa :
+                                prefijo === '+56' ? chile : 
+                                prefijo === '+34' ? mexico :
+                                ''
+                                }`
 
+                            } alt="" className={styles.nn} />
+                            <img src={pik}  className={styles.pik} alt=""/>
+                            <p className={styles.plus}>{prefijo}</p>
+                        </div>
 
-                      <div className={styles.paises} onClick={() => setBanderas(!banderas)}>
-                          <img src={
-                           `${ prefijo === '+1'  ? usa :
-                               prefijo === '+56' ? chile : 
-                               prefijo === '+34' ? mexico :
-                               ''
-                              }`
-
-                          } alt="" className={styles.nn} />
-                          <img src={pik}  className={styles.pik} alt=""/>
-                          <p className={styles.plus}>{prefijo}</p>
-                      </div>
-
-                      <input type="number" className={styles.inputBanderas} placeholder="Escribe tu WhatsApp"/>
-                  </div>
+                        <div className={styles.inw}>
+                             <span>* Escribe tu Whatsapp:</span>
+                             <input type="text" placeholder="" required="required" onClick={() => Leventaform(true)}/>                       </div>
+                       </div>
 
 
                   
                   <div className={`${banderas ? styles.opcionesPaises : styles.opcionesPaisesNone }`} >
-                      
+                     
                       <div className={styles.option} onClick={() => SetUsa('+1')}>
                           <div className={styles.aa}>
-
                               <img src={usa} alt="" className={styles.Ban}/>
-
                               <p className={styles.plusB}>+1</p>  
                           </div>
                         <p className={styles.nombreBandra}>USA</p>
@@ -80,7 +88,7 @@ const Formulario = () => {
                       <div className={styles.option} onClick={() =>  SetChile('+56')}>
                           <div className={styles.aa}>
                               <img src={chile} alt="" className={styles.Ban}/>
-                              <p className={styles.plusB}>56</p>  
+                              <p className={styles.plusB}>+56</p>  
                           </div>
                         <p className={styles.nombreBandra}>Chile</p>
                       </div>
@@ -94,23 +102,17 @@ const Formulario = () => {
                         <p className={styles.nombreBandra}>Mexico</p>
                       </div>
 
-                  
                   </div>
+
                   
                </div>
-
-             </div>
-
-              <div className={styles.contenedorBoton}>
+   
                  <button className={styles.btn}>
-                    <p>Quiero que me contacten</p>
-                    <img src={flecha} alt="" className={styles.kk}/>
+                    <p>¡Quiero Que Me Contacten!</p>
                  </button>
-              </div>
               
-
            </form>
-        </>
+        </div>
      );
 }
  

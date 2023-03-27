@@ -6,7 +6,7 @@ const Senor = () => {
     return ( 
         <div className={styles.container}>
             <div className={grid.grid}>
-            <img src={senor} alt="" title='' className={styles.senorImg}/>
+            <img src={senor} alt="" title='' className={styles.senorImg} id="senor" />
 
             <div className={styles.contenedorTexto}>
                 <span className={styles.titulo}>Valoramos El Poder De La Naturaleza Para Mejorar Nuestra Salud.</span>

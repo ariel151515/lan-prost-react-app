@@ -4,4 +4,10 @@
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   line-height: 30px;
+  scroll-behavior: smooth;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }

@@ -40,14 +40,12 @@ const Formulario = () => {
 
               {/* Contenedor del input*/}
                <div className={styles.in}>
-                  <span>* Escribe tu nombre:</span>
-                  <input type="text" placeholder="" required="required"/>
+                  <input type="text" placeholder="* Escribe tu nombre" required="required"/>
                </div>
 
                {/* Contenedor del input*/}
                <div className={styles.in}>
-                  <span>* Escribe tu email:</span>
-                  <input type="text" placeholder="" required="required"/>
+                  <input type="text" placeholder="* Escribe tu email" required="required"/>
                </div>
 
 
@@ -68,8 +66,7 @@ const Formulario = () => {
                         </div>
 
                         <div className={styles.inw}>
-                             <span>* Escribe tu Whatsapp:</span>
-                             <input type="text" placeholder="" required="required" onClick={() => Leventaform(true)}/>                       </div>
+                             <input type="text" placeholder="* Escribe tu Whatsapp" required="required" onClick={() => Leventaform(true)}/>                       </div>
                        </div>
 
 

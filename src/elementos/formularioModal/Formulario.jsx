@@ -8,12 +8,28 @@ import flecha from './img/flecha.png'
 import pik from './img/pik.png'
 
 const Formulario = () => {
+    
+    const [leads, setLeads] = useState({
+      nombre:'',
+      email:'',
+      telefono:''
+    })
 
     const [leventaform, setLeventaform] = useState()
     const [banderas, setBanderas] = useState(false)
     const [prefijo, setPrefijo] = useState('+1')
 
 
+  
+    const handleSubmit = (e) => {
+       e.preventDefault()
+    }
+
+    const handleChange = () => {
+
+    } 
+
+    
     const SetMexico = () => {
       setPrefijo('+56')
       setBanderas(!banderas)
@@ -36,18 +52,16 @@ const Formulario = () => {
 
     return ( 
         <div className={styles.main}>
-           <form>
-
+           <form onSubmit={(e) => handleSubmit(e)}>
               {/* Contenedor del input*/}
                <div className={styles.in}>
-                  <input type="text" placeholder="* Escribe tu nombre" required="required"/>
+                  <input type="text" placeholder="* Escribe tu nombre" required="required" handleChange={null}/>
                </div>
 
                {/* Contenedor del input*/}
                <div className={styles.in}>
                   <input type="text" placeholder="* Escribe tu email" required="required"/>
                </div>
-
 
                <div className={styles.in}>
                   <div className={styles.banderas}>
@@ -66,11 +80,10 @@ const Formulario = () => {
                         </div>
 
                         <div className={styles.inw}>
-                             <input type="text" placeholder="* Escribe tu Whatsapp" required="required" onClick={() => Leventaform(true)}/>                       </div>
+                             <input type="text" placeholder="* Escribe tu Whatsapp" required="required" onClick={() => Leventaform(true)}/></div>
                        </div>
 
 
-                  
                   <div className={`${banderas ? styles.opcionesPaises : styles.opcionesPaisesNone }`} >
                      
                       <div className={styles.option} onClick={() => SetUsa('+1')}>

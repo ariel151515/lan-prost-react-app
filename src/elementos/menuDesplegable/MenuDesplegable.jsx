@@ -13,13 +13,19 @@ const MenuDesplegable = ({menuDesplegable, setMuestra, muestra, setMenuDesplegab
                 <li onClick={() => setMenuDesplegable() }><a href='#senor'>About B-PROST</a></li>
                 <li onClick={() => setMenuDesplegable() }><a href='#ingredientes'>Ingredientes</a></li>
                 <li onClick={() => setMenuDesplegable() }><a href='#top'>Top</a></li>
-                <li><Btn
-                        texto="Asesoramiento Gratis"
-                        setMuestra={setMuestra}
-                        muestra={muestra}
-                        setMenuDesplegable={setMenuDesplegable}
-                        menuDesplegable={menuDesplegable}
-                      /></li>
+                <li>
+                  
+                   <div className={styles.contenedorbtn}>
+                     <Btn
+                           texto="Asesoramiento Gratis"
+                           setMuestra={setMuestra}
+                           muestra={muestra}
+                           setMenuDesplegable={setMenuDesplegable}
+                           menuDesplegable={menuDesplegable}
+                        />
+                   </div>
+                      
+               </li>
               </ul>
            </div>
         </div>

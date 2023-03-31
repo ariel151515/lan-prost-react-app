@@ -13,10 +13,12 @@ const Btn = ({texto,setMuestra,setMenuDesplegable,menuDesplegable}) => {
     }
 
     return ( 
-             <button className={styles.boton} onClick={() => cierraMenuDesplegable()}>
-               <img src={phone} alt="" /> 
-               <p>{texto}</p>
-            </button>
+             <div className={styles.contenedorboton}>
+               <button className={styles.boton} onClick={() => cierraMenuDesplegable()}>
+                  <img src={phone} alt="" className={styles.sdsd}/> 
+                  <p className={styles.klkl}>{texto}</p>
+                </button>
+             </div>
      );
 }
  

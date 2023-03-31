@@ -12,7 +12,8 @@ const BoxFlotante = ({setMuestra, muestra}) => {
                             <Btn 
                                  texto="Asesoramiento Gratis"
                                  setMuestra={setMuestra}
-                                /></div>
+                                />
+                        </div>
               </div>
        </div>
      );

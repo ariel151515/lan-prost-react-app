@@ -28,3 +28,27 @@
     margin-bottom: 10%;
     text-align: left;
 }
+.contenedorbtn {
+    width: 140%;
+    margin-left: -15%;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .contenedorbtn {
+        width: 180%;
+        margin-left: -20%;
+    }
+}
+@media screen and (max-width:460px) {
+    .contenedorbtn {
+        width: 140%;
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width:420px) {}
+@media screen and (max-width:360px) {}
+@media screen and (max-width:320px) {}
+@media screen and (max-width:300px) {}

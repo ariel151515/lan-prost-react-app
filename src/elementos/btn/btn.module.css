@@ -29,8 +29,14 @@
     color: #fff;
     margin-top: 1px;
   }
- 
 
+  .sdsd {
+    width: 9%;
+
+  }
+
+
+   
 
 @media screen and (max-width:600px) {
   .boton {
@@ -39,7 +45,7 @@
     border: none;
     border-radius: 5px;
     font-family: 'Anton', sans-serif;
-    font-size: 100%;
+    font-size: 170%;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -58,6 +64,15 @@
     margin-top: 1%;
   }
 
+  .sdsd {
+    width: 9%;
+  }
+
+  .contenedorboton {
+    width:50%;
+    margin-top: 10%;
+    margin-left: 12%;
+ }
 
 }
 
@@ -89,6 +104,16 @@
     margin-right: 14%;
   }
 
+  .sdsd {
+    width: 9%;
+    
+  }
+
+  .contenedorboton {
+    width:80%;
+    margin-top: 10%;
+ }
+
 }
 
 @media screen and (max-width:390px) {
@@ -119,6 +144,95 @@
   .boton img {
     margin-top: 1%;
     margin-right: 14%;
+
   }
 
+  .sdsd {
+    width: 9%;
+  }
+
+  .contenedorboton {
+    width:80%;
+    margin-top: 10%;
+ }
+
+}
+
+
+
+@media screen and (max-width:350px) {
+  .boton {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .sdsd {
+    width: 9%;
+  }
+
+  .contenedorboton {
+    width:80%;
+    margin-top: 10%;
+ }
+
+}
+
+
+@media screen and (max-width:400px) {
+  .boton {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .sdsd {
+    width: 9%;
+  }
+
+  .contenedorboton {
+    width:80%;
+    margin-top: 10%;
+ }
+
+}
+
+
+@media screen and (max-width:500px) {
+  .boton {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .sdsd {
+    width: 13%; 
+  }
+  .boton p {
+    margin-top: 1%;
+  }
+
+  .contenedorboton {
+    width:80%;
+    margin-top: 10%;
+ }
+
+}
+
+
+@media screen and (max-width:300px) {
+  .boton {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .sdsd {
+    width: 13%; 
+  }
+  .boton p {
+    margin-top: 1%;
+  }
+
+  .contenedorboton {
+    width:80%;
+    margin-top: 10%;
+ }
+ 
 }

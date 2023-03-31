@@ -20,6 +20,7 @@
 
 
 
+
 @media screen and (max-width:600px) {
 
   .container {
@@ -79,6 +80,13 @@
   .contenedor {
         display: flex;
         width: 77%;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+    .contenedorbtnDos {
+      width: 10%;
     }
 }
 

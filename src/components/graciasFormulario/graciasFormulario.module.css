@@ -1,0 +1,151 @@
+.rojo 
+{
+ font-family: 'Anton', sans-serif;
+ font-size: 160%;
+}
+.flechas
+{
+ font-family: 'Anton', sans-serif;
+ font-size: 140%;
+ margin-top: 5%;
+ margin-bottom: 2%;
+}
+
+.box
+{
+    width: 100%;
+    text-align: center;
+}
+.contenedorBoton
+{
+    width: 60%;
+    margin-top: 2%;
+}
+.dd 
+{
+    width: 90%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+.rojo span{
+    font-size: 90%;
+    font-family: 'Anton', sans-serif;}
+.men
+{
+    margin-bottom: 10%;
+    font-size: 250%;
+    font-family: 'Anton', sans-serif;
+    color: #70B630;
+    margin-top:0%;
+}
+.profe
+{
+    margin-bottom: 3%;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .rojo .dd {
+        width: 100%;
+        font-size: 50%;
+        margin-top: 7%;
+      }
+    .rojo{
+        margin-top: 10%;
+    }
+    
+    .contenedorBoton
+    {
+        width: 90%;
+        margin-bottom: 15%;
+        margin-top: 10%;
+    }
+    .box .men {
+        font-size: 160%;
+        margin-top: 20%;
+    }
+    .box .men {
+        margin-top: 0%;
+    }
+}
+
+
+@media screen and (max-width:412px) {
+    .rojo .dd {
+        width: 100%;
+        font-size: 50%;
+        margin-top: 7%;
+      }
+    .rojo{
+        margin-top: 10%;
+    }
+    
+    .contenedorBoton
+    {
+        width: 90%;
+        margin-bottom: 15%;
+        margin-top: 10%;
+    }
+    .box .men {
+        font-size: 160%;
+        margin-top: 15%;
+    }
+
+}
+
+
+@media screen and (max-width:414px) {
+    .rojo .dd {
+        width: 100%;
+        font-size: 50%;
+        margin-top: 7%;
+      }
+    .rojo{
+        margin-top: 10%;
+    }
+    
+    .contenedorBoton
+    {
+        width: 90%;
+        margin-bottom: 15%;
+        margin-top: 10%;
+    }
+    .box .men {
+        font-size: 160%;
+        margin-top: 20%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:300px) {
+
+    .rojo .dd {
+        width: 100%;
+        font-size: 50%;
+        margin-top: 7%;
+    }
+
+    .rojo{
+        margin-top: 10%;
+    }
+
+    .contenedorBoton
+    {
+        width: 90%;
+        margin-bottom: 15%;
+        margin-top: 10%;
+    }
+    .box .men {
+        font-size: 160%;
+        margin-top: 20%;
+    }
+    .profe {
+        width: 30%;
+    }
+    .box {
+        padding-bottom: 5%;
+    }
+}

@@ -5,6 +5,12 @@
     padding-bottom: 2%;
     padding-top: 1%;
 }
+
+.contenedor a{
+   color: #998787;
+   font-size: 16px;
+}
+
 .textoUno, .textoDos{
    font-size: 16px;
 }

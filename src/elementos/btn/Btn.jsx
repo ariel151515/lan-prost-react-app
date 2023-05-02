@@ -13,12 +13,11 @@ const Btn = ({texto,setMuestra,setMenuDesplegable,menuDesplegable}) => {
        }
     }
 
-    
+
     let WhatsApp = () => {
       window.location.assign("https://walink.co/c45d09");
       // Enlace de Whastapp creado en creado en https://walink.co/
     }
-
 
     return ( 
              <div className={styles.contenedorboton}>

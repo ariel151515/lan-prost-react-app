@@ -5,7 +5,7 @@ import GraciasFormulario from '../graciasFormulario/graciasFormulario.module';
 
 const ContenidoModal = () => {
 
-    const [enviado, setEnviado] = useState(false);
+    const [enviado, setEnviado] = useState(true);
 
     return ( 
         <div className={styles.contenedor}>

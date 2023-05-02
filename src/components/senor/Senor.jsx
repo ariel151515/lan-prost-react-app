@@ -12,10 +12,14 @@ const Senor = () => {
                 <span className={styles.titulo}>Valoramos El Poder De La Naturaleza Para Mejorar Nuestra Salud.</span>
                 <span className={styles.parrafo}>
                     <p className={styles.pp}>
-                    A diferencia de otros suplementos del mercado actual, B-PROST NATUAL es un producto diseñado para tratar los síntomas causados por la HBP (hiperplasia prostática benigna), como el ardor al orinar, la nicturia, el goteo después de orinar, orinar con mucha frecuencia, orinar poco o no orinar.
+                    AC PROST es una fórmula cuidadosamente diseñada para atender la problemática de la próstata desde una perspectiva integral y natural. Con ingredientes cuidadosamente seleccionados, AC PROST ofrece un enfoque holístico para el cuidado de la próstata, ayudando a prevenir y reducir los síntomas de la hiperplasia prostática benigna (HPB), tales como dificultad para orinar, necesidad de orinar con frecuencia y flujo de orina débil.
                     </p>
                     <p className={styles.ppp}>
-                    A diferencia de otros suplementos del mercado actual, B-PROST NATUAL es un producto diseñado para tratar los síntomas causados por la HBP (hiperplasia prostática benigna), como el ardor al orinar, la nicturia, el goteo después de orinar, orinar con mucha frecuencia, orinar poco o no orinar.
+                    Además, AC PROST está elaborado con ingredientes de alta calidad y es libre de químicos y otros ingredientes sintéticos que pueden ser dañinos para el cuerpo. Al elegir AC PROST, estás eligiendo una solución natural, segura y efectiva para el cuidado de la próstata.
+                    </p>
+
+                    <p className={styles.ppp}>
+                    No dejes que la problemática de la próstata afecte tu calidad de vida. Con AC PROST, puedes abordar la salud de la próstata de una manera integral y natural. ¡Prueba AC PROST hoy y experimenta los beneficios de una próstata saludable!
                     </p>
                 </span>
             </div>
